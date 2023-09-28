@@ -4,8 +4,8 @@ from pytube import Playlist
 
 app = Client(
   "playlists",
-  16596628, "421764a823ee2dff786d413aea09959f",
-  bot_token="6613026282:AAGiw-mA8x63HubOXLG2AxtTBH8-lsb0kBY"
+  1659628, "421764a823ee2786d413aea09959f",
+  bot_token="6613026282:AAmA8x63HubOXLG2AxtTBH8-lsb0kBY"
   )
 
 @app.on_message(filters.command("start") & filters.private)
